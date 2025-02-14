@@ -145,3 +145,5 @@ schema:
             - "left"
             - "center"
             - "right"
+    comment:
+      type: string
