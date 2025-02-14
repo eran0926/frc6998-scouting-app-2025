@@ -80253,7 +80253,7 @@ p=s.x
 o=t.N
 n=t.z
 m=s.y
-n=A.ap(["data_type","objective_data","ulid",q,"scout",s.b,"match_level",s.c.b,"match_number",s.d,"event_key",s.e,"team_number",s.f,"alliance",s.r.b,"auto",A.ap(["preload",p.a.b,"start_position",p.b.b,"leave",p.c,"path",p.d],o,n),"teleop",A.ap(["path",m.e,"hang_time",m.a,"barge_tried",m.b.b,"barge_result",m.c.b,"barge_position",m.d.b],o,n),"comment",s.w],o,n)
+n=A.ap(["ulid",q,"scout",s.b,"match_level",s.c.b,"match_number",s.d,"event_key",s.e,"team_number",s.f,"alliance",s.r.b,"auto",A.ap(["preload",p.a.b,"start_position",p.b.b,"leave",p.c,"path",p.d],o,n),"teleop",A.ap(["path",m.e,"hang_time",m.a,"barge_tried",m.b.b,"barge_result",m.c.b,"barge_position",m.d.b],o,n),"comment",s.w],o,n)
 o=$.du()
 o.ee("encode schema: "+A.k(r.a))
 s=r.a
@@ -80267,7 +80267,7 @@ s=A.b([],t.XE)
 s=new A.YK(new A.afF(s))
 new A.abF(new A.Bx(),s,k).i4(l)
 q=this.b
-return new A.zh(A.aD6(new Uint8Array(A.iR(new A.ae7().i4(s.HR())))),B.k,-1,Math.min(q.d,q.b),k)}else return new A.wb(k,k,k,k,k,k,k)},
+return new A.zh("objective_data|"+A.aD6(new Uint8Array(A.iR(new A.ae7().i4(s.HR())))),B.k,-1,Math.min(q.d,q.b),k)}else return new A.wb(k,k,k,k,k,k,k)},
 $S:493}
 A.a9E.prototype={
 $0(){var s=this.a

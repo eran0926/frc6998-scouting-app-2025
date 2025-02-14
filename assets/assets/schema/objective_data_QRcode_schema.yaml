@@ -5,12 +5,12 @@ schema:
   type: object
   properties:
     # information
-    data_type:
-      type: string
-      enum:
-        - "objective_data"
-        - "subjective_data"
-        - "pit_collection_data"
+    # data_type:
+    #   type: string
+    #   enum:
+    #     - "objective_data"
+    #     - "subjective_data"
+    #     - "pit_collection_data"
     ulid:
       type: string
       example: "01F9ZQZQZQZQZQZQZQZQZQZQZQ"
