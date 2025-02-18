@@ -80584,7 +80584,7 @@ jb(a){var s
 $.dv().ee("Adding auto point: "+a.k(0))
 s=this.z
 if(s.d.length===0)s.e=new A.cL(Date.now(),0,!1)
-s.d.push(A.ap(["timestamp",B.e.c3(new A.cL(Date.now(),0,!1).f_(s.e).a,1000),"point",a.b,"success",s.f],t.N,t.K))
+s.d.push(A.ap(["point",a.b,"timestamp",B.e.c3(new A.cL(Date.now(),0,!1).f_(s.e).a,1000),"success",s.f],t.N,t.K))
 s.f=!0
 this.ao()},
 Au(a,b,c,d){var s=this.Q

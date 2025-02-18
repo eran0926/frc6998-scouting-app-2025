@@ -66,8 +66,6 @@ schema:
           items:
             type: object
             properties:
-              timestamp:
-                type: integer
               point:
                 type: string
                 enum:
@@ -106,6 +104,8 @@ schema:
                   - "l4ReefGH"
                   - "l4ReefIJ"
                   - "l4ReefKL"
+              timestamp:
+                type: integer
               success:
                 type: boolean
     # teleop
