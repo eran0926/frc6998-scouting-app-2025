@@ -37,6 +37,10 @@ schema:
         - "unset"
         - "red"
         - "blue"
+    bypass:
+      type: boolean
+    disabled:
+      type: boolean
     # auto
     auto:
       type: object
